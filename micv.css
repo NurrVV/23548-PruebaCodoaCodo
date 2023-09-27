@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ubuntu:wght@300;500&display=swap');
+
+:root{
+    font-family:;
+}
+
+.headerContainer{
+background: rgb(220, 220, 247);
+
+}
+.headerContainer h1{
+    display: inline;
+}
+
+.cabra{
+    width: 20vw;
+    height: 20hw;
+    border-radius: 5%;
+}
+
+.headerTitle{
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700;
+    display: inline-block;
+    width: 80vw;
+    background: blue;
+    text-transform: uppercase;
+}
+
+.headerImg{
+   
+    width: 25vw;
+    height: 20vh;
+    background-image: url(./imgs/cabra.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.informacion{
+    
+
+}
+
+.informacion h2{
+   text-align: left;
+    
+}
+
+.informacion ul{
+    list-style: none;
+    color: black;
+    
+}
+.informacion li{
+    color: rgb(148, 143, 143);
+    
+}
+
+.mainCv{
+    width: 95vw;
+    /* margin: 0 auto; */
+}
+
+.informacion left{
+    background: gray;
+    width: 40vw ;
+}
+
+.informacion right{
+    background: rgb(182, 17, 17);
+    width: 55vw ;
+}

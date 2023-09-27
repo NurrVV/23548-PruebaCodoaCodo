@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container{
+    background-color: aqua;
+    display: flex;
+    /*cambiar la direccion de las "cosas"*/
+   flex-direction: column; /*Es row por defecto*/
+    /*centrar el contenido*/
+    justify-content: center;
+    /*align-items: center;*/
+    height: 100vh;
+
+
+}
+
+.flex-item{
+    border: 1px solid red;
+    width: 90vw;
+    height:50px;
+    text-align: center;
+}
+
+/*Media Query para diferentes dispositivos*/
+/*@media print*/ /*--> como se vera para imprimir*/
+@media screen and (min-width:426px){
+    .flex-container{
+        background-color: brown;
+        flex-direction: column;
+    }
+
+}

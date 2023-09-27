@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box; /*La dimensión final incluye los bordes y márgenes, el default es content-box*/
+}
+
+.textCenter{
+    text-align: center;
+    display: inline-block;
+}
+
+.divContainer{
+    background: rgb(149, 149, 238);
+    /* padding-top: 10px; */
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    margin: 0 auto;
+    
+    
+}
+
+
+.caja1{
+    background: red;
+    /*
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    */
+    width: 50px;
+    height: 50px;
+    
+}
+
+.caja2{
+    background: green;
+    width: 50px;
+    height: 50px;
+}
+.caja3{
+    background: yellow;
+    width: 50px;
+    height: 50px;
+}
+.caja4{
+    background: burlywood;
+    width: 50px;
+    height: 50px;
+}

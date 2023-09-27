@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ubuntu:ital,wght@0,300;0,500;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.logo{
+    /*background-image: url(./imgs/bancoProvincia.svg);*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+   display: inline-block;
+   height: 15vh;
+   width: 15vw;
+   margin-left: 3em;
+}
+
+.linkContainer{
+    display: inline-block;
+    width: 80vw;
+    
+}
+
+.links{
+    /*display: inline-block;*/
+    margin-right: 5em;
+    height: 10vh;
+    list-style: none;
+    float: right;
+    margin-top: 2em;
+    margin-right: 5em;
+    
+    
+    
+}
+
+.links li{
+    display: inline-block;
+    padding: 0 3px;
+    color: gray;
+
+}
+
+.links li:hover{
+    color: rgb(192, 188, 188);
+    cursor: pointer;
+}
+
+.buttons {
+    border: 2px solid rgb(192, 188, 188);
+    border-radius: 4px 8px 4px 8px;
+    padding: 0.7em;
+    
+}
+
+.gg-menu{
+    margin-bottom: 0.3em;
+    
+}
+

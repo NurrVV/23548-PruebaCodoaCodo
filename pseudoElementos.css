@@ -1,0 +1,71 @@
+
+
+/*PSEUDOCLASES*/
+
+/*Tiene :
+ALGO::PSEUDOCLASE
+ALGO PUEDE SER CLASE ID ELEMENTO ETC
+
+*/
+
+p:first-child{
+    color:red
+}
+p:last-child{
+    color:blue
+}
+
+/*para el tercero*/
+
+p:nth-child(3){
+    color: green
+}
+
+/*elementos pares e impares*/
+
+p:nth-child(even){
+    color: yellow;
+    font-weight: bolder;
+}
+p:nth-child(odd){
+    color: rgb(187, 32, 140);
+    font-weight: bolder;
+}
+
+.segundoParrafo{
+    background: black;
+    color:white
+}
+.segundoParrafo p:nth-child(3n+1){
+    color:rgb(25, 221, 156);
+
+}
+/*PSEUDOCLASES CON  LINK HOVER VISITED ACTIVE*/
+
+.links a:link{
+    color: black;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+.links a:active{
+    text-decoration: underline;
+    color: violet;
+}
+.links a:visited{
+    color: brown;
+}
+.links a:hover{
+    font-size: 2rem;
+}
+
+.avatar img{
+    width: 100px;
+    height: 100px;
+
+}
+
+.avatar img:hover{
+    border-radius: 50%;
+    border: 1 px solid red;
+    
+}
